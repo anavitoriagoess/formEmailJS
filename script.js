@@ -1,10 +1,10 @@
-emailjs.init("oQuKe7Y721HHztn-P");
+emailjs.init("sua Public Key");
 
 document.getElementById("form").addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const serviceID = "service_10m8lj7";
-  const templateID = "template_aecri1b";
+  const serviceID = "seu serviceID";
+  const templateID = "seu TemplateIS";
 
   let buttonSubmit = document.querySelector("#form-submit");
 
